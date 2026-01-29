@@ -2,6 +2,20 @@
 
 Portal do cliente para consultoria e projetos, desenvolvido pela Blink Projects & Consulting.
 
+🔗 **Repositório**: https://github.com/Blink-P-C/blink_customers_platform
+
+## 🚀 Setup Rápido
+
+```bash
+git clone https://github.com/Blink-P-C/blink_customers_platform.git
+cd blink_customers_platform
+./setup.sh
+```
+
+Acesse: http://localhost:3000 (admin@blinkpec.com / admin123)
+
+📖 **Ver guia completo**: [QUICKSTART.md](QUICKSTART.md)
+
 ## 🚀 Tecnologias
 
 ### Backend
