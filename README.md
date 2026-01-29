@@ -12,7 +12,7 @@ cd blink_customers_platform
 ./setup.sh
 ```
 
-Acesse: http://localhost:3000 (admin@blinkpec.com / admin123)
+Acesse: http://localhost:3000 (lincoln.oliver@blinkpec.com / WEV7ui8YB3ay1v21)
 
 📖 **Ver guia completo**: [QUICKSTART.md](QUICKSTART.md)
 
@@ -134,14 +134,14 @@ from app.utils.security import get_password_hash
 
 db = SessionLocal()
 admin = User(
-    email='admin@blinkpec.com',
-    hashed_password=get_password_hash('admin123'),
+    email='lincoln.oliver@blinkpec.com',
+    hashed_password=get_password_hash('WEV7ui8YB3ay1v21'),
     full_name='Administrador',
     role=UserRole.ADMIN
 )
 db.add(admin)
 db.commit()
-print('Admin criado: admin@blinkpec.com / admin123')
+print('Admin criado: lincoln.oliver@blinkpec.com / WEV7ui8YB3ay1v21')
 "
 ```
 

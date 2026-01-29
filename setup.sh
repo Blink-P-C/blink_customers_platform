@@ -31,15 +31,15 @@ from app.utils.security import get_password_hash
 db = SessionLocal()
 
 # Check if admin already exists
-existing_admin = db.query(User).filter(User.email == "admin@blinkpec.com").first()
+existing_admin = db.query(User).filter(User.email == "lincoln.oliver@blinkpec.com").first()
 
 if existing_admin:
     print("⚠️  Admin já existe!")
 else:
     admin = User(
-        email='admin@blinkpec.com',
-        hashed_password=get_password_hash('admin123'),
-        full_name='Administrador',
+        email='lincoln.oliver@blinkpec.com',
+        hashed_password=get_password_hash('WEV7ui8YB3ay1v21'),
+        full_name='Lincoln Oliver',
         role=UserRole.ADMIN,
         is_active=True
     )
@@ -54,8 +54,8 @@ echo ""
 echo "✅ Setup concluído!"
 echo ""
 echo "📌 Credenciais de Acesso:"
-echo "   Email: admin@blinkpec.com"
-echo "   Senha: admin123"
+echo "   Email: lincoln.oliver@blinkpec.com"
+echo "   Senha: WEV7ui8YB3ay1v21"
 echo ""
 echo "🌐 URLs:"
 echo "   Frontend: http://localhost:3000"
