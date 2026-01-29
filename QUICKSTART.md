@@ -24,7 +24,7 @@ from app.utils.security import get_password_hash
 db = SessionLocal()
 admin = User(
     email='lincoln.oliver@blinkpec.com',
-    hashed_password=get_password_hash('WEV7ui8YB3ay1v21'),
+    hashed_password=get_password_hash('(definido no .env)'),
     full_name='Administrador',
     role=UserRole.ADMIN,
     is_active=True
@@ -34,13 +34,13 @@ db.commit()
 db.close()
 print('✅ Admin criado com sucesso!')
 print('Email: lincoln.oliver@blinkpec.com')
-print('Senha: WEV7ui8YB3ay1v21')
+print('Senha: (definido no .env)')
 "
 ```
 
 ### 4. Acesse a plataforma
 - **Frontend**: http://localhost:3000
-- **Login**: lincoln.oliver@blinkpec.com / WEV7ui8YB3ay1v21
+- **Login**: Configurados no .env (ADMIN_EMAIL / ADMIN_PASSWORD)
 - **API Docs**: http://localhost:8000/docs
 
 ### 5. Criar um cliente de teste

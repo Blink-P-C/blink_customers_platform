@@ -31,6 +31,9 @@ services:
       SHAREPOINT_DRIVE_ID: ${SHAREPOINT_DRIVE_ID}
       GOOGLE_CLIENT_ID: ${GOOGLE_CLIENT_ID}
       GOOGLE_CLIENT_SECRET: ${GOOGLE_CLIENT_SECRET}
+      ADMIN_EMAIL: ${ADMIN_EMAIL:-admin@blinkpec.com}
+      ADMIN_PASSWORD: ${ADMIN_PASSWORD:-changeme}
+      ADMIN_NAME: ${ADMIN_NAME:-Administrador}
     depends_on:
       db:
         condition: service_healthy

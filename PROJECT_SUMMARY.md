@@ -181,7 +181,7 @@ cd blink_customers_platform
 - **Frontend**: http://localhost:3000
 - **Backend**: http://localhost:8000
 - **API Docs**: http://localhost:8000/docs
-- **Credenciais**: lincoln.oliver@blinkpec.com / WEV7ui8YB3ay1v21
+- **Credenciais**: Configurados no .env (ADMIN_EMAIL / ADMIN_PASSWORD)
 
 ---
 
